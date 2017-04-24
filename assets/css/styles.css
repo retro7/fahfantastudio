@@ -1,0 +1,51 @@
+body{
+  font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:14px;
+}
+
+#promo{
+  margin-top:64px;
+  padding:48px;
+  text-align:center;
+  background:url(../../assets/img/bg1.jpg) no-repeat;
+  background-size:cover;
+}
+
+h1#text1{
+  color:rgba(255,255,255,1);
+}
+
+p#text2{
+  color:rgba(255,255,255,1);
+}
+
+@media (max-width:991px) {
+  #promo{
+    padding:20px;
+  }
+}
+
+#promo .jumbotron{
+  border-radius:20px;
+  padding:48px;
+  background-color:rgba(0,0,0,0.75);
+  max-width:800px;
+  margin:auto;
+}
+
+@media (max-width:991px) {
+  #promo .jumbotron{
+    padding:28px;
+  }
+}
+
+body{
+}
+
+#logo{
+  max-height:36px;
+  margin-right:6px;
+  margin-top:-3px;
+  display:inline-block;
+}
+
